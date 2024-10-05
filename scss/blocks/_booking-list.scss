@@ -1,0 +1,50 @@
+.booking-list__wrapper{
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.booking-form{
+    width: 100%;
+    border-radius: 15px;
+    padding: 20px;
+    padding-bottom: 30px;
+    max-width: 770px;
+    background-color: $main-light-color;
+    box-shadow: #64646f33 0px 7px 29px 0px;
+    position: absolute;
+    top: -100px;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    gap: 22px 0;
+
+    .form__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h4{
+            font-family: $main-font;
+            font-size: 1.4rem;
+            max-width: 134px;
+            line-height: 140%;
+        }
+
+        .button{
+            padding: 10px 23px;
+            padding-top: 12px;
+        }
+    }
+}
+
+.booking-list{
+    display: flex;
+    gap: 0 16px;
+
+    &__item{
+        border: 1px solid $secondary-color;
+        border-radius: 7px;
+        flex-grow: 1;
+        height: 60px;
+    }
+}
+

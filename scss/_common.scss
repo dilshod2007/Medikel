@@ -1,0 +1,75 @@
+%icon-style{
+    width: 16px;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+}
+
+.container{
+    max-width: $container;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.secondary-text{
+    font-size: 1rem;
+    color: $secondary-color;
+    font-family: $main-font;
+    line-height: 140%;
+}
+
+.button{
+    padding: 20px 40px;
+    font-size: 1rem;
+    color: $main-light-color;
+    font-family: $main-font;
+    border-radius: 7px;
+    border: none;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    img{
+        @extend %icon-style;
+
+        margin-top: -5px;
+        margin-right: 10px;
+    }
+
+    &:hover{
+        opacity: 0.8;
+    }
+
+    &:disabled{
+        opacity: 0.5;
+    }
+}
+
+.button-primary{
+    background-color: $secondary-purple-color;
+}
+
+label{
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid $secondary-color;
+    border-radius: 7px;
+    margin-top: -2px;
+    margin-right: 10px;
+
+    &:checked{
+        background-color: $main-light-color;
+        background-image: url("../images/check.svg");
+        background-position: center;
+        border: 1px solid transparent;
+    }
+}
+

@@ -1,0 +1,41 @@
+.featured{
+    position: relative;
+    padding-bottom: 200px;
+    background-color: rgb(255, 255, 255) ;
+
+}
+.featured__card{
+    background-color: #FCFCFC;
+    padding: 20px;
+    max-width: 370px;
+}
+
+.featured__card-wrapper{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+}   
+.featured__card-text h3{
+    font-family: "Evogria";
+    color: #201F50;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+}
+.featured__card-text p{
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 500;
+    color: #888888;
+    line-height: 22px;
+    padding: 10px 0;
+}
+.featured__card-text a{
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 0px;
+    color: #6366F1;
+}

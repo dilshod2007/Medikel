@@ -1,0 +1,35 @@
+.hero{
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 810px;
+    background: linear-gradient(107.03deg, rgba(69, 99, 255, 0.075) 2.3%, rgba(248, 83, 221, 0.05) 136.36%);
+
+    &__image{
+        max-height: 647px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+    }
+
+    &__content{
+        max-width: 531px;
+        position: relative;
+        z-index: 2;
+
+        .hero__title{
+            font-size: 4.7rem;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            font-family: $secondary-font;
+            color: $main-dark-color;
+        }
+
+        &-spark-image{
+            position: absolute;
+            top: -40px;
+            left: -40px;
+        }
+    }
+}

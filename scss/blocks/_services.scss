@@ -1,0 +1,61 @@
+.Services{
+    background-color: #4563FF13;
+    padding-bottom: 50px;
+}
+.services__title h3{
+    padding-top: 80px;
+    font-family: "Gilroy";
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #6366F1;
+}
+.services__title h4{
+    font-family: "Evogria";
+    font-size: 50px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #201F50;
+    line-height: 50px;
+}
+.services__card{
+    max-width: 310px;
+    padding: 40px 10px;
+    text-align: center;
+}
+.services__card h5{
+    color: #201F50;
+    font-family: "Evogria";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+.services__card p{
+    color: #888888;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.services__card a{
+    color: #6366F1;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+.services__card-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.services__card-action{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}

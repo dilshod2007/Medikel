@@ -1,0 +1,56 @@
+.appointment{
+    background-color: #4563FF13;
+    display: flex;
+    padding-top: 100px;
+}
+.appointment__card{
+    padding: 20px 50px;
+    border-radius: 25px;
+    height: 450px;
+    background-color: #fff;
+}
+.appointment__card-title h3{
+    font-family: "Gilroy";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 20px 0 ;
+    color: #6366F1;
+    text-align: center;
+}
+.appointment__card-title h4{
+    font-family: "Evogria";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    color: #000000;
+    text-align: center;
+}
+.appointment__card-title p{
+    color: #888888;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.appointment__card-title h5{
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #000000;
+}
+.appointment__card-title span{
+    color: #6366F1;
+}
+
+.appointment__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.appointment__image img{
+    width: 90%;
+    object-fit: contain;
+}
